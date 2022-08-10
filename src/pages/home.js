@@ -104,12 +104,11 @@ const Home = () => {
                 </Link> 
                 <Link href="https://www.youtube.com/channel/UCHjK_aqP5RzX2BASkOOLK_g">
                     <SiYoutube/>
-                    Worivil's Gaming
+                    The Study of Gmaing Art and Design
                 </Link>
    
-                <Link href="https://www.youtube.com/channel/UC1i3FfQf_fPzm89_YHE_1bg">
-                    <SiYoutube/>
-                    Worivil's Speed Paintings
+                <Link href="https://www.artstation.com/worivilisakin8">
+                    Worivil's Art Station
                 </Link> 
                 <Link hrefs="https://www.instagram.com/worivil/">
                     <SiInstagram/>
