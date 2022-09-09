@@ -1,36 +1,9 @@
 import React from 'react' 
-import profile from '../images/profile.jpg'
 import {Helmet} from 'react-helmet'
 import styled from 'styled-components'
 import {SiTiktok, SiYoutube, SiInstagram, SiFiverr} from 'react-icons/si'
+import Navbar from '../components/navbar/navbar'
 
-const Header = styled.div`
-    background-color: #2a1d4c;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0; 
-    align-items: center;
-    flex-wrap: wrap;
-`
-
-const Image =styled.div`
-    background: url(${profile});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #cccccc;
-    border-radius: 50%;
-    color: white;
-    height: 150px;
-    width: 150px;
-`
-
-const Title = styled.h1`
-    color: white;
-    padding-left: 5%;
-    text-align: center;
-    font-size: 3.5em;
-
-`
 
 const Container = styled.div`
     display: flex;
@@ -82,16 +55,11 @@ const Home = () => {
   return (
     <>
         <Helmet>
-            <title>Worivil isakin - Worivils Art and Design</title>
+            <title>Worivils Art and Design</title>
             <meta name="description" content="A place to hold my art Soical media websites"/>
             <meta name="keywords" content="Art, Drawing, Sketch, Painting, How to, Tiktok, Youtube, Youtuber, artist, Fivver"/>
         </Helmet>
-        <Header>
-            <Image/>
-            <Title>
-                Worivils Art and Design
-            </Title>
-        </Header>
+        <Navbar/>
         <Container>
             <About>
                 <Subtitle>About</Subtitle>
@@ -110,11 +78,11 @@ const Home = () => {
                 <Link href="https://www.artstation.com/worivilisakin8">
                     Worivil's Art Station
                 </Link> 
-                <Link hrefs="https://www.instagram.com/worivil/">
+                <Link href="https://www.instagram.com/worivil/">
                     <SiInstagram/>
                     Worivil's Gaming - Youtuber
                 </Link>
-                <Link hrefs="https://www.fiverr.com/worivilisakin">
+                <Link href="https://www.fiverr.com/worivilisakin">
                     <SiFiverr/> Worivil Isakin
                 </Link>
             </SocialMedia>
