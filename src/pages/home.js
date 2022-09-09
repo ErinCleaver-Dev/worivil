@@ -80,7 +80,7 @@ const Home = () => {
                 </Link> 
                 <Link href="https://www.instagram.com/worivil/">
                     <SiInstagram/>
-                    Worivil's Gaming - Youtuber
+                    The Study of Gaming Art and Design - Youtuber
                 </Link>
                 <Link href="https://www.fiverr.com/worivilisakin">
                     <SiFiverr/> Worivil Isakin
