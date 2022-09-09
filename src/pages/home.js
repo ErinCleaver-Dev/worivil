@@ -82,14 +82,14 @@ const Home = () => {
   return (
     <>
         <Helmet>
-            <title>Worivil isakin - Art Designs and Gaming</title>
+            <title>Worivil isakin - Worivils Art and Design</title>
             <meta name="description" content="A place to hold my art Soical media websites"/>
             <meta name="keywords" content="Art, Drawing, Sketch, Painting, How to, Tiktok, Youtube, Youtuber, artist, Fivver"/>
         </Helmet>
         <Header>
             <Image/>
             <Title>
-                Worvil Designs and Gameing
+                Worivils Art and Design
             </Title>
         </Header>
         <Container>
