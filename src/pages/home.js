@@ -78,11 +78,11 @@ const Home = () => {
                 <Link href="https://www.artstation.com/worivilisakin8">
                     Worivil's Art Station
                 </Link> 
-                <Link hrefs="https://www.instagram.com/worivil/">
+                <Link href="https://www.instagram.com/worivil/">
                     <SiInstagram/>
                     Worivil's Gaming - Youtuber
                 </Link>
-                <Link hrefs="https://www.fiverr.com/worivilisakin">
+                <Link href="https://www.fiverr.com/worivilisakin">
                     <SiFiverr/> Worivil Isakin
                 </Link>
             </SocialMedia>
